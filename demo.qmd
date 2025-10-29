@@ -31,7 +31,18 @@ library(tidyverse)
 ```
 
 # Some demo
+
 ```{r}
 x <- c(1, 2, 3, 4, 5, 6, 7, 8)
+```
+
+# Merge Conflict Activity
+
+```{r}
+library(ggplot2)
+
+mtcars |> 
+  ggplot2(aes(mpg,cyl)) +
+  geom_point()
 ```
 
